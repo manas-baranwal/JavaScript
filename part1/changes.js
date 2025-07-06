@@ -7,4 +7,4 @@ console.log(gameName) //possible
 const username = ("manas")
 
 const username = ("manas123")
-// console.log(username) gives you error
+// console.log(username) gives you error    
