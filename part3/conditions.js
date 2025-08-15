@@ -81,5 +81,5 @@ if (item.length === 0) {
     console.log('array is empty')
 }
 else{
-    console.log('array is not empty')
+    console.log('array is Not empty')
 }
