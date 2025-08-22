@@ -24,7 +24,7 @@ console.log(countdown)
  let Tea 
 
  do {
-    Tea = prompt('Enter your tea name(type stop to end the code')
+    Tea = prompt("Enter your tea name(type 'stop' to end the code)")
     if (Tea !== "stop") {
       TeaCollection.push(Tea)
     }
