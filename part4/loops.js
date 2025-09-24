@@ -18,19 +18,19 @@ while (j>0) {
 }
 console.log(countdown)
 
-// to store values in an array until user stops (do while)
+to store values in an array until user stops (do while)
 
-//  let TeaCollection = []
-//  let Tea 
+ let TeaCollection = []
+ let Tea 
 
-//  do {
-//     Tea = prompt("Enter your tea name(type 'stop' to end the code)")
-//     if (Tea !== "stop") {
-//       TeaCollection.push(Tea)
-//     }
-//  } while (Tea !== 'stop');
+ do {
+    Tea = prompt("Enter your tea name(type 'stop' to end the code)")
+    if (Tea !== "stop") {
+      TeaCollection.push(Tea)
+    }
+ } while (Tea !== 'stop');
 
-// to add numbers from 1-3 and store it in a variable
+to add numbers from 1-3 and store it in a variable
 
  let total = 0
  let k = 1
