@@ -20,14 +20,32 @@ console.log(countdown)
 
 // to store values in an array until user stops (do while)
 
- let TeaCollection = []
- let Tea 
+//  let TeaCollection = []
+//  let Tea 
 
+//  do {
+//     Tea = prompt("Enter your tea name(type 'stop' to end the code)")
+//     if (Tea !== "stop") {
+//       TeaCollection.push(Tea)
+//     }
+//  } while (Tea !== 'stop');
+
+// to add numbers from 1-3 and store it in a variable
+
+ let total = 0
+ let k = 1
  do {
-    Tea = prompt("Enter your tea name(type 'stop' to end the code)")
-    if (Tea !== "stop") {
-      TeaCollection.push(Tea)
-    }
- } while (Tea !== 'stop');
+   total += k
+   k++
+ } while (k<=3);
 
- //
+// to mupltiply each element by 2 in a given array [2,4,6]
+
+let MupltipliedNumbers = []
+let Numbers = [2,4,6]
+for (let l=0; l<Numbers.length; l++) {
+   TakeNumber = Numbers[l] * 2
+   MupltipliedNumbers.push(TakeNumber)   
+}
+
+// 
