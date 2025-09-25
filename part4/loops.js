@@ -18,7 +18,7 @@ while (j>0) {
 }
 console.log(countdown)
 
-to store values in an array until user stops (do while)
+//to store values in an array until user stops (do while)
 
  let TeaCollection = []
  let Tea 
@@ -30,7 +30,7 @@ to store values in an array until user stops (do while)
     }
  } while (Tea !== 'stop');
 
-to add numbers from 1-3 and store it in a variable
+//to add numbers from 1-3 and store it in a variable
 
  let total = 0
  let k = 1
@@ -48,4 +48,4 @@ for (let l=0; l<Numbers.length; l++) {
    MupltipliedNumbers.push(TakeNumber)   
 }
 
-// 
+
